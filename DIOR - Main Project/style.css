@@ -1,0 +1,202 @@
+/* Reset default margin and padding, set background color, and include background image */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(img15.png);
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Logo styles */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 100px; /* Adjust the width as needed */
+    border-radius: 50%;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+
+    /* Flex container styles */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Main content heading styles */
+.main-content h2 {
+    color: #333;
+}
+
+/* Main content paragraph styles */
+.main-content p {
+    color: #555;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Contact form styles */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Form styles */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Label styles */
+label {
+    font-weight: bold;
+}
+
+/* Input and textarea styles */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Contact information styles */
+.contact-info {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Contact information heading styles */
+.contact-info h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Contact information paragraph styles */
+.contact-info p {
+    color: #555;
+}
+
+/* Poster section styles */
+.poster {
+    height: 100vh; /* Full viewport height */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img13.jpg);
+}
+
+/* Poster image styles */
+.poster-image {
+    width: 100%;
+    height: 100%;
+}
+
+/* Hero section styles */
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    min-height: 80vh;
+    padding-block: var(--section-padding);
+    display: flex;
+    align-items: center;
+}
+
+/* Hero container styles */
+.hero .container {
+    width: 100%;
+}
+
+/* Hero subtitle styles */
+.hero-subtitle {
+    color: white;
+    font-size: 30px;
+    font-weight: var(--fw-600);
+    margin-bottom: 50px;
+    padding-left: 60px;
+    padding-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Search bar styles */
+#search-bar {
+    position: absolute;
+    right: 10px; /* Adjust the right position as needed */
+    top: 25px; /* Adjust the top position as needed */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    left: 82%;
+    width: 250px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    bottom: -146px;
+    width: 100%;
+}
